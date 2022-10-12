@@ -1,12 +1,7 @@
 /*PALLETE
 
     #3C5186 - dark
-    #8D93AB - light
-    #D6E0F0 - lighter -> 3C5186
     #FFF5DE - white
-    background-color: #FFF5DE31;
-
-    #3C5B66 - blue
     #FEF2B8 - tan
     #D7A151 - gold
     #923330 - red
@@ -605,6 +600,11 @@ button:hover{
 
 
 @media screen and (max-width: 1080px){
+
+    #Home{
+        background: linear-gradient(to right bottom, #003973 50%, #4D1211);
+    }
+    
 
     #Informational .row2 h3{
         font-size: small;
