@@ -214,11 +214,11 @@ button:hover{
 }
 
 #Schooling h2{
-    color: #4D1211;
+    color: #FFF5DE;
 }
 
 #Schooling p{
-    color: #FFF5DE;
+    color: #4D1211;
 }
 
 #Schooling ul{
@@ -600,6 +600,10 @@ button:hover{
 
 
 @media screen and (max-width: 1080px){
+
+    #Experience #Noneng li{
+        padding: 3% 4%;
+    }
 
     #Home{
         background: linear-gradient(to right bottom, #003973 50%, #4D1211);

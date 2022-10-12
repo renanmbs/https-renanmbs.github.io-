@@ -24,14 +24,22 @@ nav {
     align-items: center;
     background-color: #4D1211;
     padding: 1%;
-    word-spacing: 1em;
     position: sticky;
     top:0px;
     z-index:10;
+    word-spacing: 3rem;
 }
 
 a{
     text-decoration: none;
+}
+
+p{
+    color: #FFF5DE;
+}
+
+h4{
+    color:#FEF2B8;
 }
 
 nav li{
