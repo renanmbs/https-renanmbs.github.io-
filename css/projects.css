@@ -167,8 +167,30 @@ button:hover{
     box-shadow: 1px 1px 6px #3C5186;
 }
 
+.smaller{
+    font-size: small;
+}
+
 footer{
     text-align: center;
+}
+
+#around-git{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#Github a{
+    text-decoration: none;
+    text-align: center;
+    color: #FFF5DE;
+    font-size: 7rem;
+    padding: 2% 0;
+}
+
+#Github a:hover{
+    color: #4D1211;
 }
 
 footer a{
