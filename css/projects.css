@@ -130,14 +130,6 @@ button:hover{
     height: 420px;
 }
  
-.containe .card .imgbox {
-    position: relative;
-    width: 260px;
-    height: 260px;
-    top: -60px;
-    left: 20px;
-}
- 
 .container .card .imgbox img {
     max-width: 100%;
     border-radius: 4px;
@@ -207,6 +199,12 @@ footer a:hover{
 
 
 @media screen and (max-width: 1024px){
+    .container img{
+        height:180px;
+        width: auto;
+        border: 2px solid #3C5186;
+        box-shadow: 1px 1px 6px #3C5186;
+    }
 
     *{
         font-size: medium;

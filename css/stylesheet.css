@@ -686,6 +686,15 @@ button:hover{
 
 @media screen and (max-width: 1080px){
 
+    .container2.x {
+        width: 100%;
+        height: 15rem;
+        width: 38rem;
+        flex-flow: row nowrap;
+        
+      }
+      
+
     #Experience #Noneng li{
         padding: 3% 4%;
     }
