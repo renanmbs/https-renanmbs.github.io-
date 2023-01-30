@@ -65,6 +65,7 @@ h1{
     border:2px solid #FEF2B8;
     border-radius: 20px;
     z-index: -1;
+    filter:drop-shadow(2px 0px 10px #FEF2B8);
 }
 
 
@@ -189,7 +190,7 @@ h1{
     border: 2px solid #D7A151;
     border-radius: 30px;
     color: #FFF5DE;
-    margin-bottom: 5%;
+    margin: 2% 2% 4% 2%;
 }
 
 
@@ -243,12 +244,11 @@ button:hover{
     height:130px;
     width: 130px;
     margin-top: 1%;
-    filter:drop-shadow(0 0 3px #4D1211);
 }
 
 #Schooling img[src*=weber]{
     height:130px;
-    width: 150px;
+    width: 130px;
     background-color: white;
 }
 
@@ -327,7 +327,6 @@ button:hover{
     height:130px;
     width: 130px;
     margin-top: 1%;
-    filter:drop-shadow(0 0 3px #4D1211);
     padding: 0px 5%;
 }
 
@@ -363,10 +362,6 @@ button:hover{
     align-content: center;
     text-align: center;
     margin-top: 1%;
-}
-
-#Informational .c2row1 img{
-    filter:drop-shadow(0 0 4px #4D1211);
 }
 
 #Informational .c2row1 section{
@@ -598,6 +593,90 @@ button:hover{
     transition-delay: 0.3s;
 }
 
+.holster {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    font-family: monospace;
+    height: 100%;
+  }
+
+  
+  .container2 {
+    display: flex;
+    overflow: auto;
+    flex: none;
+    border: solid #4D1211;
+    margin-bottom: 4%;
+    background-color: #3C5186;
+    
+  }
+
+  #Noneng .container2 {
+    display: flex;
+    overflow: auto;
+    flex: none;
+    color: #FEF2B8;
+    margin-bottom: 4%;
+    border: 3px solid #3C5186;
+    background-color: #4D1211F6;
+  }
+
+  
+  .container2.x {
+    width: 100%;
+    height: 15rem;
+    flex-flow: row nowrap;
+    
+  }
+
+  .x.mandatory-scroll-snapping {
+    scroll-snap-type: x mandatory;
+  }
+
+  .container2 > div {
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+  }
+  
+  .x.container2 > div {
+    width: 100%;
+    height: 128px;
+  }
+
+  #Experience .holster h3{
+    text-shadow: 0px 0px 0px #000000;
+    font-size: 2rem;
+    color:#D7A151;
+  }
+
+  #Experience .holster h4{
+    text-shadow: 0px 0px 0px #000000;
+    font-size: 1.2rem;
+    color:#4D1211;
+    text-transform: uppercase;
+  }
+
+  #Noneng .holster h4{
+    text-shadow: 0px 0px 0px #000000;
+    font-size: 1rem;
+    color:#FEF2B8;
+    text-transform: uppercase;
+  }
+
+
+  #Experience .holster button{
+    margin: 1%;
+    color:#D7A151;
+    background-color: #4D1211;
+    border: solid #3C5B66;
+    border-radius: 12px;
+    height: 40px;
+    width: 80px;
+  }
+
 
 @media screen and (max-width: 1080px){
 
@@ -612,10 +691,6 @@ button:hover{
 
     #Informational .row2 h3{
         font-size: small;
-    }
-
-    #Schooling img{
-        filter:drop-shadow(0 0 0px #4D1211) !important;
     }
 
     .container .card .imgbox img {
