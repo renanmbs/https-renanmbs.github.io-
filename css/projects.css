@@ -117,14 +117,29 @@ button:hover{
     position: relative;
     margin: 4% 2%;
     padding: 4% 5%;
-    background: #4D1211;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 1px 6px #3C5186;
     transition: 0.3s ease-in-out;
     border-radius: 50px;
-    border: 3px solid #FFF5DE;
+    border: solid #FFF5DE;
+    background-color: #4D1211;
 }
+
+.react{
+    background-color: #001135 !important;
+    border: solid  #D7A151EA !important;
+}
+
+.html{
+    background-color: #132c69 !important;
+    border: solid #4D1211 !important;
+}
+
+.java{
+    border: solid #FFF5DE !important;
+    background-color: #4D1211 !important;
+}
+
  
 .container .card:hover {
     height: 420px;
@@ -158,6 +173,10 @@ button:hover{
     width: auto;
     border: 2px solid #3C5186;
     box-shadow: 1px 1px 6px #3C5186;
+}
+
+.container #react{
+    border: 2px solid #FFF5DE;
 }
 
 .smaller{
@@ -196,6 +215,35 @@ footer a:hover{
     color: #D6E0F0;
 }
 
+#desc{
+    display: grid;
+    place-items: center;
+}
+
+table{
+    border: solid #FFF5DE;
+    color: #FFF5DE;
+    width: 35rem;
+    text-align: center;
+}
+
+td,th{
+    background-color: #4D1211;
+    padding: 3%;
+    border: solid #D7A151EA;
+}
+
+table a{
+    text-decoration: none;
+    color: #FFF5DE;
+}
+
+table a:hover{
+    text-decoration: underline;
+}
+
+
+
 
 
 @media screen and (max-width: 1024px){
@@ -215,6 +263,10 @@ footer a:hover{
 }
 
 @media screen and (max-width: 700px){
+
+    table{
+        width: 20rem;
+    }
 
     .container .card .imgbox img {
         max-width: 100%;

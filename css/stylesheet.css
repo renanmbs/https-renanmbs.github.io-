@@ -1,6 +1,6 @@
 /*PALLETE
 
-    #3C5186 - dark
+    #001135 - dark
     #FFF5DE - white
     #FEF2B8 - tan
     #D7A151 - gold
@@ -91,7 +91,7 @@ h1{
 }
 
 #Experience {
-    background-color: #D7A151EA;
+    background-color: #d9a623d8;
 }
 
 #Experience h1{
@@ -99,6 +99,8 @@ h1{
     background-color: #4D1211;
     padding: 10px 0 10px 0;
     text-transform: uppercase;
+    border-top: solid #FFF5DE;
+    border-bottom: solid #FFF5DE;
 }
 
 #Experience h3{
@@ -116,20 +118,11 @@ h1{
     text-shadow: 0px 0px 1px #000000;
 }
 
-#Experience #Eng li{
-    text-align: center;
-    list-style-type: none;
-    border: 3px solid #4D1211;
-    background-color: #3C5186;
-    padding: 3%;
-    margin: 1% 1% 3% 0;
-    box-shadow: 1px 1px 6px #4D1211;
-}
 
 #Experience #Eng a{
     text-decoration: none;
     font-weight: bold;
-    color:#D7A151;
+    color:#FFF5DE;
 }
 
 #Experience #Eng a:hover, #Experience #Noneng a:hover{
@@ -153,7 +146,7 @@ h1{
 #Experience #Noneng li{
     text-align: center;
     list-style-type: none;
-    border: 3px solid #3C5186;
+    border: 3px solid #001135;
     background-color: #4D1211F6;
     padding: 3%;
     margin: 1% 1% 3% 0;
@@ -171,7 +164,7 @@ h1{
 }
 
 #Projects{
-    background-color: #3C5186;
+    background-color: #001135;
     text-align: center;
 }
 
@@ -180,6 +173,8 @@ h1{
     background-color: #4D1211;
     padding: 10px 0 10px 0;
     text-transform: uppercase;
+    border-top: solid #FFF5DE;
+    border-bottom: solid #FFF5DE;
 }
 
 #Projects button{
@@ -197,7 +192,7 @@ h1{
 
 button:hover{
     background-color: #FFF5DE !important;
-    border: 2px solid #4D1211 !important;
+    border: 1px solid #4D1211 !important;
     color:#4D1211 !important;
     box-shadow: 1px 1px 6px #4D1211;
     cursor:pointer;
@@ -205,7 +200,7 @@ button:hover{
 
 #Schooling{
     display: grid;
-    background-color: #3C5186C9;
+    background-color: #d9a623d8;
 }
 
 #Schooling h1{
@@ -213,6 +208,7 @@ button:hover{
     background-color: #4D1211;
     padding: 10px 0 10px 0;
     text-transform: uppercase;
+    border-top: solid #FFF5DE;
 }
 
 #Schooling h2{
@@ -254,7 +250,7 @@ button:hover{
 }
 
 #Informational{
-    background-color: #D7A151EA;
+    background-color: #4D1211;
 }
 
 #Informational h1{
@@ -262,11 +258,12 @@ button:hover{
     background-color: #4D1211;
     padding: 10px 0 10px 0;
     text-transform: uppercase;
+    border-bottom: solid #FFF5DE;
 }
 
 #Informational h2{
     color: #FFF5DE;
-    background-color: #3C5186;
+    background-color: #001135;
     text-transform: uppercase;
     text-align: center;
 }
@@ -293,7 +290,7 @@ button:hover{
 #Informational .row1 li{
     font-weight: bold;
     font-style: italic;
-    color:#4D1211;
+    color:#FFF5DE;
     text-transform: uppercase;
     padding-bottom: 1%;
 }
@@ -311,7 +308,7 @@ button:hover{
 }
 
 #Informational .row2 p{
-    color:#4D1211;
+    color:#D7A151;
 }
 
 #Informational .row2 ul{
@@ -377,13 +374,13 @@ button:hover{
 
 #Informational .c2row1 a{
     text-decoration: none;
-    color: #4D1211;
+    color: #FFF5DE;
     text-shadow: 0px 0px 0px black !important;
 }
 
 #Informational .c2row1 a:hover{
     text-decoration: underline;
-    color: #3C5186;
+    color: #D7A151;
 }
 
 #Informational .c2row1 ul{
@@ -411,7 +408,7 @@ button:hover{
 }
 
 #Fun{
-    background-color: #3C5186;
+    background-color: #001135;
 }
 
 #Fun h1{
@@ -419,6 +416,8 @@ button:hover{
     background-color: #4D1211;
     padding: 10px 0 10px 0;
     text-transform: uppercase;
+    border-top: solid #FFF5DE;
+    border-bottom: solid #FFF5DE;
 }
 
 #Fun button{
@@ -448,7 +447,7 @@ button:hover{
 }
 
 #Contact{
-    background-color: #3C5186;
+    background-color: #001135;
     justify-content: center;
     align-content: center;
     grid-column: 1/1;
@@ -470,8 +469,8 @@ button:hover{
     margin-right: 2%;
 }
 
-#Contact article p{
-    margin-right: 2%;
+#Contact p{
+    color: #FFF5DE;
 }
 
 #Contact h4{
@@ -479,11 +478,13 @@ button:hover{
 }
 
 .fa-linkedin,.fa-envelope,.fa-github,.fa-phone{
-    color:#4D1211;
-    border: 2px solid #4D1211;
+    color:#FFF5DE;
+    border: 2px solid #FFF5DE;
     border-radius: 5px;
     padding: 10px;
     margin: auto 10px;
+    background-color: #4D1211;
+    box-shadow: 0px 0px 3px #FFF5DE; 
 }
 
 .fa-linkedin:hover,.fa-envelope:hover,.fa-github:hover,.fa-phone:hover{
@@ -492,8 +493,13 @@ button:hover{
     transform: scale(1.2);
 }
 
+.fa-linkedin:active,.fa-envelope:active,.fa-github:active,.fa-phone:active{
+    transform: scale(1);
+    box-shadow: 0px 0px 0px #FFF5DE;
+}
+
 #Downloads {
-    background-color: #3C5186;
+    background-color: #001135;
     grid-column: 2/2;
 }
 
@@ -524,6 +530,8 @@ button:hover{
 }
 
 .header_contact{
+    border-top: solid #FFF5DE;
+    border-bottom: solid #FFF5DE;
     color: #FFF5DE;
     background-color: #4D1211;
     padding: 10px 0 10px 0;
@@ -532,7 +540,7 @@ button:hover{
 
 .top{
     text-decoration: none;
-    color: #4D1211;
+    color:#D7A151;;
 }
 
 .top:hover{
@@ -615,7 +623,7 @@ button:hover{
     flex: none;
     border: solid #4D1211;
     margin-bottom: 4%;
-    background-color: #3C5186;    
+    background-color: #001135;    
   }
 
   #Noneng .container2 {
@@ -624,7 +632,7 @@ button:hover{
     flex: none;
     color: #FEF2B8;
     margin-bottom: 4%;
-    border: 3px solid #3C5186;
+    border: 3px solid #001135;
     background-color: #4D1211F6;
   }
 
@@ -655,13 +663,13 @@ button:hover{
   #Experience .holster h3{
     text-shadow: 0px 0px 0px #000000;
     font-size: 2rem;
-    color:#D7A151;
+    color:#FFF5DE;
   }
 
   #Experience .holster h4{
     text-shadow: 0px 0px 0px #000000;
     font-size: 1rem;
-    color:#4D1211;
+    color:#D7A151;
     text-transform: uppercase;
   }
 
@@ -738,7 +746,7 @@ button:hover{
     #Home{
         padding: 10vw;
         text-align: center;
-        border: 2px solid linear-gradient(270deg, #4D1211 40%, #3C5186);
+        border: 2px solid linear-gradient(270deg, #4D1211 40%, #001135);
     }
 
 
@@ -747,13 +755,13 @@ button:hover{
         width: 20vw;
         height: 20vw;
         border-radius: 50%;
-        border:2px solid #3C5186;
-        filter:drop-shadow(0 0 10px #3C5186);
+        border:2px solid #001135;
+        filter:drop-shadow(0 0 10px #001135);
     }
 
     #Schooling{
         display: grid;
-        background-color: #3C5186;
+        background-color: #001135;
     }
 
     #Schooling h1{
@@ -859,7 +867,7 @@ button:hover{
         position: relative;
         margin: 4% 3%;
         padding: 10% 2%;
-        background: #3C5186;
+        background: #001135;
         display: flex;
         flex-direction: column;
         box-shadow: 1px 1px 6px #4D1211;
@@ -874,6 +882,14 @@ button:hover{
 }
 
 @media screen and (max-width: 700px){
+
+
+  #Experience .holster button{
+    padding: 2% 4%;
+    color:#D7A151;
+    background-color: #4D1211;
+    border: solid #FEF2B8;
+  }
 
     #Experience .holster h3{
         text-shadow: 0px 0px 0px #000000;
