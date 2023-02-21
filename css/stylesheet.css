@@ -905,9 +905,9 @@ button:hover{
         
       }
 
-    #Schooling img, #Informational img{
+    #Informational img{
         height:100px;
-        max-width: 120px;
+        width: 160px;
         margin-top: 3%;
     }
 
@@ -928,6 +928,9 @@ button:hover{
     }
 
     #Schooling img{
+        height:100px  !important;
+        width: 110px !important;
+        margin-top: 3%;
         border: solid #4D1211;
     }
 
