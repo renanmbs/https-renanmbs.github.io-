@@ -202,7 +202,7 @@ button:hover{
 
 #Schooling{
     display: grid;
-    background-color: #4D1211;
+    background-color: #4d1211ee;
 }
 
 #Schooling h1{
@@ -449,7 +449,7 @@ button:hover{
 }
 
 #Contact{
-    background-color: #4D1211;
+    background-color: #4d1211ee;
     justify-content: center;
     align-content: center;
     grid-column: 1/1;
