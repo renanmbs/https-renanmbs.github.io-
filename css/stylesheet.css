@@ -91,7 +91,7 @@ h1{
 }
 
 #Experience {
-    background-color: #b58d3d;
+    background-color: #3C5186;
 }
 
 #Experience h1{
@@ -105,7 +105,7 @@ h1{
 
 #Experience h3{
     text-align: center;
-    color:#4D1211;
+    color:#FEF2B8;
     padding: 2% 0 1.5% 0;
     text-shadow: 0px 0px 1px #000000;
 }
@@ -200,7 +200,7 @@ button:hover{
 
 #Schooling{
     display: grid;
-    background-color: #b58d3d;
+    background-color: #4D1211;
 }
 
 #Schooling h1{
@@ -216,7 +216,7 @@ button:hover{
 }
 
 #Schooling p{
-    color: #4D1211;
+    color: #D7A151;
 }
 
 #Schooling ul{
@@ -250,7 +250,7 @@ button:hover{
 }
 
 #Informational{
-    background-color: #4D1211;
+    background-color: #3C5186;
 }
 
 #Informational h1{
@@ -447,7 +447,7 @@ button:hover{
 }
 
 #Contact{
-    background-color: #001135;
+    background-color: #4D1211;
     justify-content: center;
     align-content: center;
     grid-column: 1/1;
@@ -519,7 +519,7 @@ button:hover{
 }
 
 .downloads_div button{
-    background-color: #4D1211;
+    background-color: #001135;
     padding: 1px 10px 1px 10px;
     text-transform: uppercase;
     text-align: center;
