@@ -265,7 +265,7 @@ table a:hover{
 @media screen and (max-width: 700px){
 
     table{
-        width: 35rem;
+        width: 40rem;
     }
 
     .container .card .imgbox img {

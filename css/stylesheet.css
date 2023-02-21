@@ -245,7 +245,7 @@ button:hover{
 
 #Schooling img[src*=weber]{
     height:130px;
-    width: 130px;
+    width: 150px;
     background-color: white;
 }
 
@@ -759,11 +759,6 @@ button:hover{
         filter:drop-shadow(0 0 10px #001135);
     }
 
-    #Schooling{
-        display: grid;
-        background-color: #001135;
-    }
-
     #Schooling h1{
         color: #FFF5DE;
         background-color: #4D1211;
@@ -799,7 +794,7 @@ button:hover{
 
     #Schooling img{
         height:130px  !important;
-        width: 130px !important;
+        width: 150px;
         margin-top: 3%;
         border: solid #4D1211;
     }
@@ -929,19 +924,19 @@ button:hover{
 
     #Schooling img{
         height:100px  !important;
-        width: 110px !important;
+        width: 100px !important;
         margin-top: 3%;
         border: solid #4D1211;
     }
 
     #Schooling img[src*=weber]{
         height:130px;
-        max-width: 90px !important;
+        width: 100px !important;
         background-color: white;
     }
 
     #Informational img{
-        width: 70px !important;
+        width: 100px !important;
     }
 
     .divisor img{
