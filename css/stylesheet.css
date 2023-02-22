@@ -58,7 +58,7 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: scroll; */
 }
 
 #Home article{
@@ -950,15 +950,17 @@ button:hover{
     }
 }
 
-@media not all and (min-resolution:.001dpcm) { 
-    @supports (-webkit-appearance: none) {
-        #Home{
-            padding: 10vw;
-            text-align: center;
-            background-image: url("../img/cwb.jpeg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
+/* Chrome 29+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    #Home{
+        background-attachment: fixed;
     }
-  }
+}
+
+/* Chrome 22-28 */
+/* @media screen and(-webkit-min-device-pixel-ratio:0) {
+    #Home{
+        background-attachment: fixed;
+    }
+}  */
