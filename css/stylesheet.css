@@ -707,6 +707,10 @@ button:hover{
     #Experience #Noneng li{
         padding: 3% 4%;
     }
+
+    #Home{
+        background: linear-gradient(to right bottom, #003973 50%, #4D1211);
+    }
     
 
     #Informational .row2 h3{
@@ -738,6 +742,12 @@ button:hover{
         text-transform: uppercase;
         font-size: 2.5vw;
         margin-bottom: 2%;
+    }
+
+    #Home{
+        padding: 10vw;
+        text-align: center;
+        border: 2px solid linear-gradient(270deg, #4D1211 40%, #001135);
     }
 
 
