@@ -707,17 +707,6 @@ button:hover{
     #Experience #Noneng li{
         padding: 3% 4%;
     }
-
-    #Home{
-        text-align: center;
-        background-image: url("../img/cwb2.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        padding: 40vw auto;
-        text-align: center;
-        border: 2px solid linear-gradient(270deg, #4D1211 40%, #001135);
-    }
     
 
     #Informational .row2 h3{
