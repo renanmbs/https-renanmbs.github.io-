@@ -791,14 +791,12 @@ button:hover{
     #Schooling li{
         text-align: center;
         list-style: none;
-        border: solid #FFF5DE;
 
     }
 
     #Schooling img{
         height:130px  !important;
         width: 150px;
-        margin-top: 3%;
         border: solid #4D1211;
     }
 
