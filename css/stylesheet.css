@@ -210,6 +210,7 @@ button:hover{
     padding: 10px 0 10px 0;
     text-transform: uppercase;
     border-top: solid #FFF5DE;
+    border-bottom: solid #FFF5DE;
 }
 
 #Schooling h2{
@@ -218,6 +219,7 @@ button:hover{
 
 #Schooling p{
     color: #D7A151;
+    margin-bottom: 5%;
 }
 
 #Schooling ul{
@@ -234,14 +236,13 @@ button:hover{
 #Schooling li{
     text-align: center;
     list-style: none;
-    border: solid #FFF5DE;
     padding-bottom: 1.5%;
 }
 
 #Schooling img{
     height:130px;
     width: 130px;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 
 #Schooling img[src*=weber]{
@@ -260,6 +261,7 @@ button:hover{
     padding: 10px 0 10px 0;
     text-transform: uppercase;
     border-bottom: solid #FFF5DE;
+    border-top: solid #FFF5DE;
 }
 
 #Informational h2{
@@ -329,7 +331,7 @@ button:hover{
 #Informational img{
     height:130px;
     width: 130px;
-    margin-top: 1%;
+    margin-top: 5%;
     padding: 0px 5%;
 }
 
