@@ -58,7 +58,6 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-attachment: scroll; */
 }
 
 #Home article{
@@ -694,7 +693,7 @@ button:hover{
   }
 
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1024px){
 
     .container2.x {
         width: 100%;
@@ -710,7 +709,14 @@ button:hover{
     }
 
     #Home{
-        background: linear-gradient(to right bottom, #003973 50%, #4D1211);
+        text-align: center;
+        background-image: url("../img/cwb2.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 40vw auto;
+        text-align: center;
+        border: 2px solid linear-gradient(270deg, #4D1211 40%, #001135);
     }
     
 
@@ -743,12 +749,6 @@ button:hover{
         text-transform: uppercase;
         font-size: 2.5vw;
         margin-bottom: 2%;
-    }
-
-    #Home{
-        padding: 10vw;
-        text-align: center;
-        border: 2px solid linear-gradient(270deg, #4D1211 40%, #001135);
     }
 
 
@@ -950,7 +950,7 @@ button:hover{
     }
 }
 
-/* Chrome 29+
+/* Chrome 29+ */
 @media screen and (-webkit-min-device-pixel-ratio:0)
   and (min-resolution:.001dpcm) {
     #Home{
@@ -959,8 +959,8 @@ button:hover{
 }
 
 /* Chrome 22-28 */
-/* @media screen and(-webkit-min-device-pixel-ratio:0) {
+@media screen and(-webkit-min-device-pixel-ratio:0) {
     #Home{
         background-attachment: fixed;
     }
-}  */
+} 
