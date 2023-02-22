@@ -948,18 +948,3 @@ button:hover{
         padding: 0% !important;
     }
 }
-
-/* Chrome 29+ */
-@media screen and (-webkit-min-device-pixel-ratio:0)
-  and (min-resolution:.001dpcm) {
-    #Home{
-        background-attachment: fixed;
-    }
-}
-
-/* Chrome 22-28 */
-@media screen and(-webkit-min-device-pixel-ratio:0) {
-    #Home{
-        background-attachment: fixed;
-    }
-} 
