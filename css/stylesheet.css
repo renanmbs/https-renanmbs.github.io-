@@ -881,11 +881,11 @@ button:hover{
 
 
     #Experience .holster button{
-        padding: 7px 20px 7px 20px;
+        padding: .5rem 1.5rem;
         color:#D7A151;
         background-color: #4D1211;
         border: solid #FEF2B8;
-        font-size: x-large;
+        font-size: large;
     }
 
     #Experience .holster h3{
